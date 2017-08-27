@@ -1,0 +1,9 @@
+source "https://supermarket.chef.io"
+
+##SOURCE : LOCAL COOKBOOKS##
+cookbook 'iis', path: 'C:\chef\cookbooks\iis'
+
+##SOURCE : SUPERMARKET##
+cookbook 'windows'
+cookbook 'windows_firewall', '~> 3.0.2'
+

@@ -1,0 +1,915 @@
+{
+  "name": "WIN-CSMM7BDT7MR.us-west-2.compute.internal",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "default": {
+    "windows": {
+      "rubyzipversion": null
+    },
+    "iis": {
+      "home": "C:\\Windows\\System32\\inetsrv",
+      "conf_dir": "C:\\Windows\\System32\\inetsrv\\config",
+      "pubroot": "C:\\inetpub",
+      "docroot": "C:\\inetpub\\wwwroot",
+      "log_dir": "C:\\inetpub\\logs\\LogFiles",
+      "cache_dir": "C:\\inetpub\\temp",
+      "components": [
+
+      ],
+      "source": null,
+      "recycle": {
+        "log_events": "Time, Requests, Schedule, Memory, IsapiUnhealthy, OnDemand, ConfigChange, PrivateMemory"
+      }
+    }
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 1,
+        "vendor_id": "GenuineIntel",
+        "family": "1",
+        "model": "16130",
+        "stepping": "2",
+        "physical_id": "CPU0",
+        "model_name": "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz",
+        "description": "Intel64 Family 6 Model 63 Stepping 2",
+        "mhz": "2400",
+        "cache_size": " KB"
+      },
+      "total": 1,
+      "cores": 1,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 31843151,
+        "kb_available": 7567310,
+        "kb_used": 24275841,
+        "percent_used": 76,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "9200",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows Server 2012 Standard",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "WIN-CSMM7BDT7MR",
+        "current_time_zone": 0,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 3,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 0,
+        "free_physical_memory": "120764",
+        "free_space_in_paging_files": "627952",
+        "free_virtual_memory": "407500",
+        "install_date": "20170825232252.000000+000",
+        "large_system_cache": null,
+        "last_boot_up_time": "20170826195235.499433+000",
+        "local_date_time": "20170827052452.790000+000",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "8589934464",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows Server 2012 Standard|C:\\Windows|\\Device\\Harddisk0\\Partition2",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 60,
+        "number_of_users": 1,
+        "operating_system_sku": 7,
+        "organization": "Amazon.com",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 272,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 3,
+        "registered_user": "EC2",
+        "serial_number": "00184-30000-00001-AA420",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "1264088",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume2",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "2312264",
+        "total_visible_memory_size": "1048176",
+        "version": "6.2.9200",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows Server 2012 Standard",
+      "release": "6.2.9200",
+      "version": "6.2.9200  Build 9200",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": false,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "bootup_state": "Normal boot",
+        "caption": "WIN-CSMM7BDT7MR",
+        "chassis_bootup_state": 3,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 0,
+        "daylight_in_effect": null,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "WIN-CSMM7BDT7MR",
+        "domain": "WORKGROUP",
+        "domain_role": 2,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": true,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "Xen",
+        "model": "HVM domU",
+        "name": "WIN-CSMM7BDT7MR",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 1,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "Xen"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 1,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "EC2",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT",
+          "Server_NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "1073332224",
+        "user_name": null,
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "1264088kB",
+        "free": "627952kB"
+      },
+      "total": "1048176kB",
+      "free": "121468kB"
+    },
+    "network": {
+      "interfaces": {
+        "0xd": {
+          "configuration": {
+            "ip_address": [
+              "172.31.25.197",
+              "fe80::211e:aced:e069:3f64"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000010] AWS PV Network Device",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "172.31.16.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "AWS PV Network Device",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20170827062334.000000+000",
+            "dhcp_lease_obtained": "20170827052334.000000+000",
+            "dhcp_server": "172.31.16.1",
+            "dns_domain": "us-west-2.compute.internal",
+            "dns_domain_suffix_search_order": [
+              "us-west-2.ec2-utilities.amazonaws.com",
+              "us-east-1.ec2-utilities.amazonaws.com",
+              "ec2.internal",
+              "compute-1.internal",
+              "us-west-2.compute.internal"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "WIN-CSMM7BDT7MR",
+            "dns_server_search_order": [
+              "172.31.0.2"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 10,
+            "interface_index": 13,
+            "ip_connection_metric": 10,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.240.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "02:77:77:9B:5D:E2",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "xennet",
+            "setting_id": "{5D21FB4F-D9BF-47AC-AD3E-CE2E172F27A0}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000010] AWS PV Network Device",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "AWS PV Network Device",
+            "device_id": "10",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{5D21FB4F-D9BF-47AC-AD3E-CE2E172F27A0}",
+            "index": 10,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 13,
+            "last_error_code": null,
+            "mac_address": "02:77:77:9B:5D:E2",
+            "manufacturer": "Amazon Inc.",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "AWS PV Network Device",
+            "net_connection_id": "Ethernet",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "XENVIF\\VEN_XS0001&DEV_NET&REV_00000000\\0",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "AWS PV Network Device",
+            "service_name": "xennet",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "WIN-CSMM7BDT7MR",
+            "time_of_last_reset": "20170826195235.499433+000"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "172.31.25.197": {
+              "prefixlen": "20",
+              "netmask": "255.255.240.0",
+              "broadcast": "172.31.31.255",
+              "family": "inet"
+            },
+            "fe80::211e:aced:e069:3f64": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "02:77:77:9B:5D:E2": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "172.31.16.1": "02:43:e1:d2:e6:c5",
+            "172.31.31.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "172.31.16.1",
+      "default_interface": "0xd"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "172.31.25.197",
+    "macaddress": "02:77:77:9B:5D:E2",
+    "ip6address": "fe80::211e:aced:e069:3f64",
+    "os": "windows",
+    "os_version": "6.2.9200",
+    "platform": "windows",
+    "platform_version": "6.2.9200",
+    "platform_family": "windows",
+    "uptime_seconds": 34338,
+    "uptime": "9 hours 32 minutes 18 seconds",
+    "virtualization": {
+      "systems": {
+        "xen": "guest"
+      },
+      "system": "xen",
+      "role": "guest"
+    },
+    "languages": {
+      "powershell": {
+        "version": "3.0",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "6.2.9200.22199",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0"
+        ],
+        "remoting_protocol_version": "2.2"
+      },
+      "ruby": {
+
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "13.3.42",
+        "chef_root": "C:/opscode/chef/embedded/lib/ruby/gems/2.4.0/gems/chef-13.3.42-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "13.3.0",
+        "ohai_root": "C:/opscode/chef/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.3.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "ec2": {
+      "ami_id": "ami-6b0dee13",
+      "ami_launch_index": "0",
+      "ami_manifest_path": "(unknown)",
+      "block_device_mapping_ami": "/dev/sda1",
+      "block_device_mapping_root": "/dev/sda1",
+      "hostname": "ip-172-31-25-197.us-west-2.compute.internal",
+      "instance_action": "none",
+      "instance_id": "i-0a62b8d08c2c85f96",
+      "instance_type": "t2.micro",
+      "local_hostname": "ip-172-31-25-197.us-west-2.compute.internal",
+      "local_ipv4": "172.31.25.197",
+      "mac": "02:77:77:9b:5d:e2",
+      "metrics_vhostmd": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "network_interfaces_macs": {
+        "02:77:77:9b:5d:e2": {
+          "device_number": "0",
+          "interface_id": "eni-c50130ea",
+          "ipv4-associations": {
+            "34.209.244.114": "172.31.25.197"
+          },
+          "local_hostname": "ip-172-31-25-197.us-west-2.compute.internal",
+          "local_ipv4s": "172.31.25.197",
+          "mac": "02:77:77:9b:5d:e2",
+          "owner_id": "396670761661",
+          "public_hostname": "ec2-34-209-244-114.us-west-2.compute.amazonaws.com",
+          "public_ipv4s": "34.209.244.114",
+          "security_group_ids": "sg-3a200f40",
+          "security_groups": "Windows",
+          "subnet_id": "subnet-38d5b05f",
+          "subnet_ipv4_cidr_block": "172.31.16.0/20",
+          "vpc_id": "vpc-32b1fe55",
+          "vpc_ipv4_cidr_block": "172.31.0.0/16",
+          "vpc_ipv4_cidr_blocks": "172.31.0.0/16"
+        }
+      },
+      "placement_availability_zone": "us-west-2b",
+      "profile": "windows-hvm",
+      "public_hostname": "ec2-34-209-244-114.us-west-2.compute.amazonaws.com",
+      "public_ipv4": "34.209.244.114",
+      "public_keys_0_openssh_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQClbShLwOLXjefce4uqVk7Na9zq5hlsmQwqCJsak+ismAioJqqPg9N3N9bfExrpAiisz8HvretWDPe4qpgKv6pEU82JWHvyHGjBJ5URtx9Tn9tLKXQ83jU2BNjjXbN4M+kHSsg854/dV+KnFmveOPvVTLX3OxocoXQZvwrDElLnBkp04aevGKv53Q4YQMYet7J+hg5eDMnssgvNZ/lAHEyi0AI8wKUmzhDnv1VOUCk7QVD+XGLgYMjFE0ayJmww/uiTK/Dl/LrmQfbotI/aLwZob/1AIGup/3iReRVcXyyhBrnetS7SRbezDpi3WGvJMHlRnyKEHZHZW7thh36+/EET Windows-EzekielAWS\n",
+      "reservation_id": "r-06eddd3c872e9e1aa",
+      "security_groups": [
+        "Windows"
+      ],
+      "services_domain": "amazonaws.com",
+      "services_partition": "aws",
+      "userdata": null,
+      "account_id": "396670761661",
+      "availability_zone": "us-west-2b",
+      "region": "us-west-2"
+    },
+    "json?": "{\n  \"devpayProductCodes\" : null,\n  \"privateIp\" : \"172.31.25.197\",\n  \"availabilityZone\" : \"us-west-2b\",\n  \"version\" : \"2010-08-31\",\n  \"instanceId\" : \"i-0a62b8d08c2c85f96\",\n  \"billingProducts\" : [ \"bp-6ba54002\" ],\n  \"instanceType\" : \"t2.micro\",\n  \"accountId\" : \"396670761661\",\n  \"architecture\" : \"x86_64\",\n  \"kernelId\" : null,\n  \"ramdiskId\" : null,\n  \"imageId\" : \"ami-6b0dee13\",\n  \"pendingTime\" : \"2017-08-26T19:51:45Z\",\n  \"region\" : \"us-west-2\"\n}",
+    "cloud_v2": {
+      "public_ipv4_addrs": [
+        "34.209.244.114"
+      ],
+      "local_ipv4_addrs": [
+        "172.31.25.197"
+      ],
+      "provider": "ec2",
+      "public_hostname": "ec2-34-209-244-114.us-west-2.compute.amazonaws.com",
+      "local_hostname": "ip-172-31-25-197.us-west-2.compute.internal",
+      "public_ipv4": "34.209.244.114",
+      "local_ipv4": "172.31.25.197"
+    },
+    "cloud": {
+      "public_ipv4_addrs": [
+        "34.209.244.114"
+      ],
+      "local_ipv4_addrs": [
+        "172.31.25.197"
+      ],
+      "provider": "ec2",
+      "public_hostname": "ec2-34-209-244-114.us-west-2.compute.amazonaws.com",
+      "local_hostname": "ip-172-31-25-197.us-west-2.compute.internal",
+      "public_ipv4": "34.209.244.114",
+      "local_ipv4": "172.31.25.197"
+    },
+    "command": {
+
+    },
+    "hostname": "WIN-CSMM7BDT7MR",
+    "machinename": "WIN-CSMM7BDT7MR",
+    "fqdn": "WIN-CSMM7BDT7MR.us-west-2.compute.internal",
+    "domain": "us-west-2.compute.internal",
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1503811494.946953,
+    "packages": {
+      "Git version 2.14.1": {
+        "version": "2.14.1",
+        "publisher": "The Git Development Community",
+        "installdate": "20170827"
+      },
+      "aws-cfn-bootstrap": {
+        "version": "1.3.5",
+        "publisher": "Amazon Web Services",
+        "installdate": "20120924"
+      },
+      "EC2ConfigService": {
+        "version": "4.9.2016.0",
+        "publisher": "Amazon Web Services"
+      },
+      "Amazon SSM Agent": {
+        "version": "2.0.879.0",
+        "publisher": "Amazon Web Services"
+      },
+      "AWS PV Drivers": {
+        "version": "7.4.6",
+        "publisher": "Amazon Web Services",
+        "installdate": "20170510"
+      },
+      "Google Chrome": {
+        "version": "60.0.3112.113",
+        "publisher": "Google Inc.",
+        "installdate": "20170827"
+      },
+      "WinRAR 5.50 (32-bit)": {
+        "version": "5.50.0",
+        "publisher": "win.rar GmbH"
+      },
+      "AWS Tools for Windows": {
+        "version": "3.15.84",
+        "publisher": "Amazon Web Services Developer Relations",
+        "installdate": "20170616"
+      },
+      "Google Update Helper": {
+        "version": "1.3.33.5",
+        "publisher": "Google Inc.",
+        "installdate": "20170827"
+      },
+      "Chef Client v13.3.42": {
+        "version": "13.3.42.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20170827"
+      }
+    },
+    "root_group": "Administrators",
+    "time": {
+      "timezone": "Coordinated Universal Time"
+    },
+    "recipes": [
+      "iis",
+      "iis::default",
+      "windows_firewall::default"
+    ],
+    "expanded_run_list": [
+      "iis::default"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "iis": {
+        "version": "6.7.2"
+      },
+      "windows": {
+        "version": "3.1.2"
+      },
+      "windows_firewall": {
+        "version": "3.0.2"
+      },
+      "ohai": {
+        "version": "5.2.0"
+      }
+    },
+    "dism_features": {
+      "NetFx3ServerFeatures": "Enabled",
+      "NetFx3": "Enabled",
+      "IIS-WebServerRole": "Enabled",
+      "IIS-WebServer": "Enabled",
+      "IIS-CommonHttpFeatures": "Enabled",
+      "IIS-StaticContent": "Enabled",
+      "IIS-DefaultDocument": "Enabled",
+      "IIS-DirectoryBrowsing": "Enabled",
+      "IIS-HttpErrors": "Enabled",
+      "IIS-HttpRedirect": "Disabled",
+      "IIS-WebDAV": "Disabled",
+      "IIS-ApplicationDevelopment": "Enabled",
+      "IIS-WebSockets": "Disabled",
+      "IIS-ApplicationInit": "Disabled",
+      "IIS-NetFxExtensibility": "Disabled",
+      "IIS-NetFxExtensibility45": "Disabled",
+      "IIS-ASPNET": "Disabled",
+      "IIS-ASPNET45": "Disabled",
+      "IIS-ASP": "Disabled",
+      "IIS-CGI": "Disabled",
+      "IIS-ISAPIExtensions": "Disabled",
+      "IIS-ISAPIFilter": "Disabled",
+      "IIS-ServerSideIncludes": "Disabled",
+      "IIS-HealthAndDiagnostics": "Enabled",
+      "IIS-HttpLogging": "Enabled",
+      "IIS-LoggingLibraries": "Disabled",
+      "IIS-RequestMonitor": "Disabled",
+      "IIS-HttpTracing": "Disabled",
+      "IIS-CustomLogging": "Disabled",
+      "IIS-ODBCLogging": "Disabled",
+      "IIS-Security": "Enabled",
+      "IIS-CertProvider": "Disabled",
+      "IIS-BasicAuthentication": "Disabled",
+      "IIS-WindowsAuthentication": "Disabled",
+      "IIS-DigestAuthentication": "Disabled",
+      "IIS-ClientCertificateMappingAuthentication": "Disabled",
+      "IIS-IISCertificateMappingAuthentication": "Disabled",
+      "IIS-URLAuthorization": "Disabled",
+      "IIS-RequestFiltering": "Enabled",
+      "IIS-IPSecurity": "Disabled",
+      "IIS-Performance": "Enabled",
+      "IIS-HttpCompressionStatic": "Enabled",
+      "IIS-HttpCompressionDynamic": "Disabled",
+      "IIS-WebServerManagementTools": "Enabled",
+      "IIS-ManagementConsole": "Enabled",
+      "IIS-LegacySnapIn": "Disabled",
+      "IIS-ManagementScriptingTools": "Disabled",
+      "IIS-ManagementService": "Disabled",
+      "IIS-IIS6ManagementCompatibility": "Disabled",
+      "IIS-Metabase": "Disabled",
+      "IIS-WMICompatibility": "Disabled",
+      "IIS-LegacyScripts": "Disabled",
+      "IIS-FTPServer": "Disabled",
+      "IIS-FTPSvc": "Disabled",
+      "IIS-FTPExtensibility": "Disabled",
+      "WAS-WindowsActivationService": "Disabled",
+      "WAS-ProcessModel": "Disabled",
+      "WAS-NetFxEnvironment": "Disabled",
+      "WAS-ConfigurationAPI": "Disabled",
+      "IIS-HostableWebCore": "Disabled",
+      "MSMQ": "Disabled",
+      "MSMQ-Services": "Disabled",
+      "MSMQ-Server": "Disabled",
+      "MSMQ-Triggers": "Disabled",
+      "MSMQ-ADIntegration": "Disabled",
+      "MSMQ-HTTP": "Disabled",
+      "MSMQ-Multicast": "Disabled",
+      "MSMQ-DCOMProxy": "Disabled",
+      "MSMQ-RoutingServer": "Disabled",
+      "WCF-Services45": "Enabled",
+      "WCF-HTTP-Activation45": "Disabled",
+      "WCF-TCP-Activation45": "Disabled",
+      "WCF-Pipe-Activation45": "Disabled",
+      "WCF-MSMQ-Activation45": "Disabled",
+      "WCF-TCP-PortSharing45": "Enabled",
+      "ManagementOdata": "Disabled",
+      "IPAMServerFeature": "Disabled",
+      "ADFS-Role-Package": "Disabled",
+      "IdentityServer-SecurityTokenService": "Disabled",
+      "ADFS-WebAgents-RoleService-Package": "Disabled",
+      "ADFS-WebAgentClaims": "Disabled",
+      "ADFS-WebAgentToken": "Disabled",
+      "RightsManagementServices-Role": "Disabled",
+      "RightsManagementServices": "Disabled",
+      "RMS-Federation": "Disabled",
+      "RightsManagementServices-AdminTools": "Disabled",
+      "IdentityServer-Proxy": "Disabled",
+      "Application-Server": "Disabled",
+      "AS-NET-Framework": "Disabled",
+      "Application-Server-WebServer-Support": "Disabled",
+      "AS-Ent-Services": "Disabled",
+      "Application-Server-TCP-Port-Sharing": "Disabled",
+      "Application-Server-WAS-Support": "Disabled",
+      "Application-Server-HTTP-Activation": "Disabled",
+      "Application-Server-MSMQ-Activation": "Disabled",
+      "Application-Server-TCP-Activation": "Disabled",
+      "Application-Server-Pipe-Activation": "Disabled",
+      "AS-Dist-Transaction": "Disabled",
+      "AS-Incoming-Trans": "Disabled",
+      "AS-Outgoing-Trans": "Disabled",
+      "AS-WS-Atomic": "Disabled",
+      "ADCertificateServicesRole": "Disabled",
+      "CertificateServices": "Disabled",
+      "OnlineRevocationServices": "Disabled",
+      "WebEnrollmentServices": "Disabled",
+      "NetworkDeviceEnrollmentServices": "Disabled",
+      "CertificateEnrollmentPolicyServer": "Disabled",
+      "CertificateEnrollmentServer": "Disabled",
+      "BITSExtensions-Upload": "Disabled",
+      "HCAP-Server": "Disabled",
+      "HCSRuntime": "Disabled",
+      "BITSExtensions-AdminPack": "Disabled",
+      "Gateway-UI": "Disabled",
+      "WCF-HTTP-Activation": "Disabled",
+      "WCF-NonHTTP-Activation": "Disabled",
+      "WindowsPowerShellWebAccess": "Disabled",
+      "Printing-Server-Foundation-Features": "Disabled",
+      "Printing-Server-Role": "Disabled",
+      "Printing-LPDPrintService": "Disabled",
+      "BusScan-ScanServer": "Disabled",
+      "Printing-InternetPrinting-Server": "Disabled",
+      "RPC-HTTP_Proxy": "Disabled",
+      "Smtpsvc-Admin-Update-Name": "Disabled",
+      "Smtpsvc-Service-Update-Name": "Disabled",
+      "Microsoft-Windows-Web-Services-for-Management-IIS-Extension": "Disabled",
+      "RemoteAccess": "Disabled",
+      "RemoteAccessServer": "Disabled",
+      "RasRoutingProtocols": "Disabled",
+      "Gateway": "Disabled",
+      "WebAccess": "Disabled",
+      "UpdateServices": "Disabled",
+      "UpdateServices-Services": "Disabled",
+      "UpdateServices-Database": "Disabled",
+      "UpdateServices-WidDatabase": "Disabled",
+      "NetFx4ServerFeatures": "Enabled",
+      "NetFx4": "Enabled",
+      "NetFx4Extended-ASPNET45": "Disabled",
+      "MicrosoftWindowsPowerShellRoot": "Enabled",
+      "MicrosoftWindowsPowerShell": "Enabled",
+      "ServerCore-FullServer": "Enabled",
+      "User-Interfaces-Infra": "Enabled",
+      "Server-Gui-Mgmt": "Enabled",
+      "RSAT": "Enabled",
+      "FSRM-Infrastructure": "Disabled",
+      "FSRM-Management": "Disabled",
+      "Microsoft-Windows-FCI-Client-Package": "Disabled",
+      "WINS-Server-Tools": "Disabled",
+      "CoreFileServer-RSAT": "Disabled",
+      "Server-Manager-RSAT-File-Services": "Disabled",
+      "Server-RSAT-SNMP": "Disabled",
+      "DNS-Server-Tools": "Disabled",
+      "IPAMClientFeature": "Disabled",
+      "DfsMgmt": "Disabled",
+      "ADCertificateServicesManagementTools": "Disabled",
+      "CertificateServicesManagementTools": "Disabled",
+      "OnlineRevocationServicesManagementTools": "Disabled",
+      "RSAT-AD-Tools-Feature": "Disabled",
+      "RSAT-ADDS-Tools-Feature": "Disabled",
+      "DirectoryServices-DomainController-Tools": "Disabled",
+      "DirectoryServices-ADAM-Tools": "Disabled",
+      "BitLocker-RemoteAdminTool": "Disabled",
+      "BdeAducExtTool": "Disabled",
+      "ActiveDirectory-PowerShell": "Disabled",
+      "DirectoryServices-DomainController": "Disabled",
+      "DirectoryServices-ISM-Smtp": "Disabled",
+      "DirectoryServices-AdministrativeCenter": "Disabled",
+      "RasServerAdminTools": "Disabled",
+      "DamgmtTools": "Disabled",
+      "HCSUI": "Disabled",
+      "Licensing-UI": "Disabled",
+      "Licensing-Diagnosis-UI": "Disabled",
+      "Microsoft-Windows-Deployment-Services-Admin-Pack": "Disabled",
+      "DHCPServer-Tools": "Disabled",
+      "FailoverCluster-Mgmt": "Disabled",
+      "NetworkLoadBalancingManagementClient": "Disabled",
+      "NFS-Administration": "Disabled",
+      "UpdateServices-UI": "Disabled",
+      "WindowsServerBackupSnapin": "Enabled",
+      "WSRM-RSAT": "Disabled",
+      "FaxServiceConfigRole": "Disabled",
+      "NPSManagementTools": "Disabled",
+      "RightsManagementServicesManagementTools": "Disabled",
+      "Security-SPP-Vmw": "Disabled",
+      "Printing-Client": "Enabled",
+      "Printing-Client-Gui": "Enabled",
+      "RSAT-NIS": "Disabled",
+      "MicrosoftWindowsPowerShellISE": "Enabled",
+      "Microsoft-Hyper-V": "Disabled",
+      "RSAT-Hyper-V-Tools-Feature": "Disabled",
+      "Microsoft-Hyper-V-Management-Clients": "Disabled",
+      "Microsoft-Hyper-V-Management-PowerShell": "Disabled",
+      "VmHostAgent": "Disabled",
+      "FSRM-Infrastructure-Services": "Disabled",
+      "Server-Gui-Shell": "Enabled",
+      "Internet-Explorer-Optional-amd64": "Enabled",
+      "ServicesForNFS-ServerAndClient": "Disabled",
+      "ServerForNFS-Infrastructure": "Disabled",
+      "ClientForNFS-Infrastructure": "Disabled",
+      "SearchEngine-Server-Package": "Disabled",
+      "FaxServiceRole": "Disabled",
+      "iSCSITargetServer-PowerShell": "Disabled",
+      "OEM-Appliance-OOBE": "Disabled",
+      "PSync": "Disabled",
+      "Microsoft-Windows-Deployment-Services": "Disabled",
+      "Microsoft-Windows-Deployment-Services-Deployment-Server": "Disabled",
+      "Microsoft-Windows-Deployment-Services-Transport-Server": "Disabled",
+      "Microsoft-Windows-Deployment-Services-Legacy-SIS": "Disabled",
+      "BitLocker": "Disabled",
+      "Bitlocker-Utilities": "Disabled",
+      "BitLocker-NetworkUnlock": "Disabled",
+      "NPAS-Role": "Disabled",
+      "IAS NT Service": "Disabled",
+      "AppServer": "Disabled",
+      "PKIClient-PSH-Cmdlets": "Disabled",
+      "KeyDistributionService-PSH-Cmdlets": "Enabled",
+      "RemoteAccessMgmtTools": "Disabled",
+      "RemoteAccessPowerShell": "Disabled",
+      "MicrosoftWindowsPowerShellV2": "Enabled",
+      "Server-Psh-Cmdlets": "Enabled",
+      "DirectoryServices-ADAM": "Disabled",
+      "UpdateServices-RSAT": "Disabled",
+      "UpdateServices-API": "Disabled",
+      "ServerCore-WOW64": "Enabled",
+      "ServerCore-EA-IME-WOW64": "Enabled",
+      "Windows-Identity-Foundation": "Disabled",
+      "Printing-LPRPortMonitor": "Disabled",
+      "Printing-InternetPrinting-Client": "Disabled",
+      "Printing-AdminTools-Collection": "Disabled",
+      "SimpleTCP": "Disabled",
+      "AdminUI": "Disabled",
+      "BiometricFramework": "Disabled",
+      "WindowsServerBackup": "Disabled",
+      "WindowsFeedbackForwarder": "Disabled",
+      "EnhancedStorage": "Disabled",
+      "CoreFileServer": "Enabled",
+      "FileAndStorage-Services": "Enabled",
+      "Storage-Services": "Enabled",
+      "File-Services": "Enabled",
+      "File-Services-Search-Service": "Disabled",
+      "DFSN-Server": "Disabled",
+      "DFSR-Infrastructure-ServerEdition": "Disabled",
+      "FileServerVSSAgent": "Disabled",
+      "iSCSITargetServer": "Disabled",
+      "SMBHashGeneration": "Disabled",
+      "Dedup-Core": "Disabled",
+      "FRS-Infrastructure": "Disabled",
+      "Microsoft-Windows-GroupPolicy-ServerAdminTools-Update": "Disabled",
+      "Windows-Internal-Database": "Disabled",
+      "ServerManager-Core-RSAT": "Disabled",
+      "ServerManager-Core-RSAT-Role-Tools": "Disabled",
+      "ServerManager-Core-RSAT-Feature-Tools": "Disabled",
+      "RasCMAK": "Disabled",
+      "RSAT-RDS-Tools-Feature": "Disabled",
+      "FailoverCluster-AdminPak": "Disabled",
+      "FailoverCluster-PowerShell": "Disabled",
+      "iSCSITargetStorageProviders": "Disabled",
+      "iSNS_Service": "Disabled",
+      "BITS": "Disabled",
+      "LightweightServer": "Disabled",
+      "MultipathIo": "Disabled",
+      "NetworkLoadBalancingFullServer": "Disabled",
+      "NIS": "Disabled",
+      "PeerDist": "Disabled",
+      "P2P-PnrpOnly": "Disabled",
+      "Printing-XPSServices-Features": "Enabled",
+      "QWAVE": "Disabled",
+      "MSRDC-Infrastructure": "Disabled",
+      "RemoteAssistance": "Disabled",
+      "ServerCore-EA-IME": "Enabled",
+      "DataCenterBridging": "Disabled",
+      "ServerMediaFoundation": "Disabled",
+      "InkAndHandwritingServices": "Disabled",
+      "DesktopExperience": "Disabled",
+      "MediaPlayback": "Disabled",
+      "WindowsMediaPlayer": "Disabled",
+      "ServerMigration": "Disabled",
+      "ServerCore-Drivers-General": "Enabled",
+      "Server-Drivers-General": "Enabled",
+      "Server-Drivers-Printers": "Enabled",
+      "SIS-Limited": "Disabled",
+      "SmbDirect": "Enabled",
+      "SNMP": "Disabled",
+      "WMISnmpProvider": "Disabled",
+      "WindowsStorageManagementService": "Disabled",
+      "SUA": "Disabled",
+      "TelnetClient": "Disabled",
+      "TelnetServer": "Disabled",
+      "TFTP": "Disabled",
+      "TIFFIFilter": "Disabled",
+      "WirelessNetworking": "Disabled",
+      "WSRM": "Disabled",
+      "Xps-Foundation-Xps-Viewer": "Disabled",
+      "FailoverCluster-FullServer": "Disabled",
+      "CCFFilter": "Disabled",
+      "DHCPServer": "Disabled",
+      "DNS-Server-Full-Role": "Disabled",
+      "FailoverCluster-AutomationServer": "Disabled",
+      "FailoverCluster-CmdInterface": "Disabled",
+      "WINSRuntime": "Disabled",
+      "ResumeKeyFilter": "Disabled",
+      "SmbWitness": "Disabled",
+      "Remote-Desktop-Services": "Disabled",
+      "SessionDirectory": "Disabled",
+      "SBMgr-UI": "Disabled",
+      "Licensing": "Disabled",
+      "VolumeActivation-Full-Role": "Disabled"
+    }
+  },
+  "run_list": [
+    "recipe[iis]"
+  ]
+}

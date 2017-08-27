@@ -1,0 +1,13 @@
+DEPENDENCIES
+  iis
+    path: iis
+  windows
+  windows_firewall (~> 3.0.2)
+
+GRAPH
+  iis (6.7.2)
+    windows (>= 2.0)
+  ohai (5.2.0)
+  windows (3.1.2)
+    ohai (>= 4.0.0)
+  windows_firewall (3.0.2)

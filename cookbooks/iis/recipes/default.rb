@@ -3,6 +3,7 @@
 # Recipe:: default
 #
 
+# Install IIS WebServer.
 webserver = Opscode::IIS::Helper.older_than_windows2008r2? ? 'Web-Server' : 'IIS-WebServerRole'
 
 ([webserver] + node['iis']['components']).each do |comps|
@@ -12,9 +13,11 @@ webserver = Opscode::IIS::Helper.older_than_windows2008r2? ? 'Web-Server' : 'IIS
   end
 end
 
-#powershell_script 'Install IIS' do
-#code 'Add-WindowsFeature Web-Server'
-#end
+#We can also used powershell method to Install IIS WebServer.
+
+# powershell_script 'Install IIS' do
+# code 'Add-WindowsFeature Web-Server'
+# end
 
 service 'iis' do
   service_name 'W3SVC'
@@ -27,6 +30,7 @@ end
 
 template "#{node['iis']['docroot']}/icons/Default.htm" do
 source 'icons.erb'
+notifies  :restart, 'service[iis]', :immediately
 end
 
 iis_site 'icons' do
@@ -34,7 +38,6 @@ iis_site 'icons' do
   path      "#{node['iis']['docroot']}/icons"
   protocol  :http
   port      80
-  notifies  :restart, 'service[iis]', :immediately
   not_if {::Dir.exists?("#{node['iis']['docroot']}/icons")}
 end
 

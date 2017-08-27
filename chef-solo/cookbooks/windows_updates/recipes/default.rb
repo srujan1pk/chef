@@ -1,21 +1,13 @@
 #
 # Cookbook:: windows_updates
 # Recipe:: default
-#
-# Copyright:: 2017, The Authors, All Rights Reserved.
 
-#
-# Cookbook Name:: InstallWindowsUpdates
-# Recipe:: default
-# 
-
-
-# Installs Windows Updates using WindowsUpdate
+# Installs Windows Latest Updates using WindowsUpdate
 powershell_script "install-latest-updates" do
   guard_interpreter :powershell_script
-  timeout 300
+  timeout 3600
   code <<-EOH
-    Write-Host -ForegroundColor Green "Searching for latest updates (this may take a while)..."
+    Write-Host -ForegroundColor Green "Searching now for latest updates (this may take a while)..."
 
     $updateSession = New-Object -com Microsoft.Update.Session
     $updateSearcher = $updateSession.CreateupdateSearcher()

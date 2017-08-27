@@ -10,16 +10,15 @@
       "rubyzipversion": null
     },
     "iis": {
+      "docroot": "C:\\inetpub\\wwwroot",
       "home": "C:\\Windows\\System32\\inetsrv",
       "conf_dir": "C:\\Windows\\System32\\inetsrv\\config",
       "pubroot": "C:\\inetpub",
-      "docroot": "C:\\inetpub\\wwwroot",
       "log_dir": "C:\\inetpub\\logs\\LogFiles",
       "cache_dir": "C:\\inetpub\\temp",
       "components": [
 
-      ],
-      "source": null
+      ]
     }
   },
   "automatic": {
@@ -43,8 +42,8 @@
     "filesystem": {
       "C:": {
         "kb_size": 31843151,
-        "kb_available": 2181283,
-        "kb_used": 29661868,
+        "kb_available": 2157457,
+        "kb_used": 29685694,
         "percent_used": 93,
         "mount": "C:",
         "fs_type": "ntfs",
@@ -73,13 +72,13 @@
         "distributed": false,
         "encryption_level": 256,
         "foreground_application_boost": 0,
-        "free_physical_memory": "80216",
-        "free_space_in_paging_files": "3413328",
-        "free_virtual_memory": "3198984",
+        "free_physical_memory": "101204",
+        "free_space_in_paging_files": "3330924",
+        "free_virtual_memory": "3077084",
         "install_date": "20170825232252.000000+000",
         "large_system_cache": null,
         "last_boot_up_time": "20170826195235.499433+000",
-        "local_date_time": "20170827062931.707000+000",
+        "local_date_time": "20170827103658.156000+000",
         "locale": "0409",
         "manufacturer": "Microsoft Corporation",
         "max_number_of_processes": -1,
@@ -89,7 +88,7 @@
         ],
         "name": "Microsoft Windows Server 2012 Standard|C:\\Windows|\\Device\\Harddisk0\\Partition2",
         "number_of_licensed_users": 0,
-        "number_of_processes": 57,
+        "number_of_processes": 60,
         "number_of_users": 1,
         "operating_system_sku": 7,
         "organization": "Amazon.com",
@@ -196,10 +195,10 @@
     "memory": {
       "swap": {
         "total": "4260456kB",
-        "free": "3413328kB"
+        "free": "3330924kB"
       },
       "total": "1048176kB",
-      "free": "80076kB"
+      "free": "100916kB"
     },
     "network": {
       "interfaces": {
@@ -221,8 +220,8 @@
             "default_ttl": null,
             "description": "AWS PV Network Device",
             "dhcp_enabled": true,
-            "dhcp_lease_expires": "20170827072334.000000+000",
-            "dhcp_lease_obtained": "20170827062334.000000+000",
+            "dhcp_lease_expires": "20170827112339.000000+000",
+            "dhcp_lease_obtained": "20170827102339.000000+000",
             "dhcp_server": "172.31.16.1",
             "dns_domain": "us-west-2.compute.internal",
             "dns_domain_suffix_search_order": [
@@ -382,8 +381,8 @@
     "platform": "windows",
     "platform_version": "6.2.9200",
     "platform_family": "windows",
-    "uptime_seconds": 38217,
-    "uptime": "10 hours 36 minutes 57 seconds",
+    "uptime_seconds": 53063,
+    "uptime": "14 hours 44 minutes 23 seconds",
     "virtualization": {
       "systems": {
         "xen": "guest"
@@ -536,7 +535,7 @@
         "enabled": false
       }
     },
-    "ohai_time": 1503815374.822848,
+    "ohai_time": 1503830221.122761,
     "packages": {
       "Git version 2.14.1": {
         "version": "2.14.1",

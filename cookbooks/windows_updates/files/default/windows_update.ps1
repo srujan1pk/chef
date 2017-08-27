@@ -1,13 +1,4 @@
-#
-# Cookbook:: windows_updates
-# Recipe:: default
-
-# Installs Windows Latest Updates using WindowsUpdate
-powershell_script "install-latest-updates" do
-  guard_interpreter :powershell_script
-  timeout 3600
-  code <<-EOH
-    Write-Host -ForegroundColor Green "Searching now for latest updates (this may take a while)..."
+Write-Host -ForegroundColor Green "Searching now for latest updates (this may take a while)..."
 
     $updateSession = New-Object -com Microsoft.Update.Session
     $updateSearcher = $updateSession.CreateupdateSearcher()
@@ -46,6 +37,3 @@ powershell_script "install-latest-updates" do
       }
       eventcreate /t INFORMATION /ID 1 /L APPLICATION /SO "Chef-Solo" /D "chef/cookbooks/windows_updates: Done Installing Updates."
     }
-  EOH
-  action :run
-end

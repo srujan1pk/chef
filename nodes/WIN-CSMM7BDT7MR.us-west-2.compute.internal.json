@@ -19,10 +19,7 @@
       "components": [
 
       ],
-      "source": null,
-      "recycle": {
-        "log_events": "Time, Requests, Schedule, Memory, IsapiUnhealthy, OnDemand, ConfigChange, PrivateMemory"
-      }
+      "source": null
     }
   },
   "automatic": {
@@ -46,9 +43,9 @@
     "filesystem": {
       "C:": {
         "kb_size": 31843151,
-        "kb_available": 7567310,
-        "kb_used": 24275841,
-        "percent_used": 76,
+        "kb_available": 2181283,
+        "kb_used": 29661868,
+        "percent_used": 93,
         "mount": "C:",
         "fs_type": "ntfs",
         "volume_name": ""
@@ -76,13 +73,13 @@
         "distributed": false,
         "encryption_level": 256,
         "foreground_application_boost": 0,
-        "free_physical_memory": "120764",
-        "free_space_in_paging_files": "627952",
-        "free_virtual_memory": "407500",
+        "free_physical_memory": "80216",
+        "free_space_in_paging_files": "3413328",
+        "free_virtual_memory": "3198984",
         "install_date": "20170825232252.000000+000",
         "large_system_cache": null,
         "last_boot_up_time": "20170826195235.499433+000",
-        "local_date_time": "20170827052452.790000+000",
+        "local_date_time": "20170827062931.707000+000",
         "locale": "0409",
         "manufacturer": "Microsoft Corporation",
         "max_number_of_processes": -1,
@@ -92,7 +89,7 @@
         ],
         "name": "Microsoft Windows Server 2012 Standard|C:\\Windows|\\Device\\Harddisk0\\Partition2",
         "number_of_licensed_users": 0,
-        "number_of_processes": 60,
+        "number_of_processes": 57,
         "number_of_users": 1,
         "operating_system_sku": 7,
         "organization": "Amazon.com",
@@ -111,14 +108,14 @@
         "serial_number": "00184-30000-00001-AA420",
         "service_pack_major_version": 0,
         "service_pack_minor_version": 0,
-        "size_stored_in_paging_files": "1264088",
+        "size_stored_in_paging_files": "4260456",
         "status": "OK",
         "suite_mask": 272,
         "system_device": "\\Device\\HarddiskVolume2",
         "system_directory": "C:\\Windows\\system32",
         "system_drive": "C:",
         "total_swap_space_size": null,
-        "total_virtual_memory_size": "2312264",
+        "total_virtual_memory_size": "5308632",
         "total_visible_memory_size": "1048176",
         "version": "6.2.9200",
         "windows_directory": "C:\\Windows"
@@ -198,11 +195,11 @@
     },
     "memory": {
       "swap": {
-        "total": "1264088kB",
-        "free": "627952kB"
+        "total": "4260456kB",
+        "free": "3413328kB"
       },
       "total": "1048176kB",
-      "free": "121468kB"
+      "free": "80076kB"
     },
     "network": {
       "interfaces": {
@@ -224,8 +221,8 @@
             "default_ttl": null,
             "description": "AWS PV Network Device",
             "dhcp_enabled": true,
-            "dhcp_lease_expires": "20170827062334.000000+000",
-            "dhcp_lease_obtained": "20170827052334.000000+000",
+            "dhcp_lease_expires": "20170827072334.000000+000",
+            "dhcp_lease_obtained": "20170827062334.000000+000",
             "dhcp_server": "172.31.16.1",
             "dns_domain": "us-west-2.compute.internal",
             "dns_domain_suffix_search_order": [
@@ -385,8 +382,8 @@
     "platform": "windows",
     "platform_version": "6.2.9200",
     "platform_family": "windows",
-    "uptime_seconds": 34338,
-    "uptime": "9 hours 32 minutes 18 seconds",
+    "uptime_seconds": 38217,
+    "uptime": "10 hours 36 minutes 57 seconds",
     "virtualization": {
       "systems": {
         "xen": "guest"
@@ -395,6 +392,10 @@
       "role": "guest"
     },
     "languages": {
+      "perl": {
+        "version": "5.8.8",
+        "archname": "msys-64int"
+      },
       "powershell": {
         "version": "3.0",
         "ws_man_stack_version": "3.0",
@@ -409,17 +410,31 @@
         "remoting_protocol_version": "2.2"
       },
       "ruby": {
-
+        "platform": "i386-mingw32",
+        "version": "2.4.1",
+        "release_date": "2017-03-22",
+        "target": "i386-w64-mingw32",
+        "target_cpu": "i386",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "i686-w64-mingw32",
+        "host_cpu": "i686",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/opscode/chefdk/embedded/bin",
+        "ruby_bin": "C:/opscode/chefdk/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0",
+        "gem_bin": "C:/opscode/chefdk/embedded/bin/gem"
       }
     },
     "chef_packages": {
       "chef": {
-        "version": "13.3.42",
-        "chef_root": "C:/opscode/chef/embedded/lib/ruby/gems/2.4.0/gems/chef-13.3.42-universal-mingw32/lib"
+        "version": "13.2.20",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20-universal-mingw32/lib"
       },
       "ohai": {
         "version": "13.3.0",
-        "ohai_root": "C:/opscode/chef/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.3.0/lib/ohai"
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.3.0/lib/ohai"
       }
     },
     "dmi": {
@@ -521,7 +536,7 @@
         "enabled": false
       }
     },
-    "ohai_time": 1503811494.946953,
+    "ohai_time": 1503815374.822848,
     "packages": {
       "Git version 2.14.1": {
         "version": "2.14.1",
@@ -555,6 +570,11 @@
         "version": "5.50.0",
         "publisher": "win.rar GmbH"
       },
+      "Chef Development Kit v2.1.11": {
+        "version": "2.1.11.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20170827"
+      },
       "AWS Tools for Windows": {
         "version": "3.15.84",
         "publisher": "Amazon Web Services Developer Relations",
@@ -578,17 +598,23 @@
     "recipes": [
       "iis",
       "iis::default",
+      "windows_updates",
+      "windows_updates::default",
       "windows_firewall::default"
     ],
     "expanded_run_list": [
-      "iis::default"
+      "iis::default",
+      "windows_updates::default"
     ],
     "roles": [
 
     ],
     "cookbooks": {
       "iis": {
-        "version": "6.7.2"
+        "version": "0.1.0"
+      },
+      "windows_updates": {
+        "version": "0.1.0"
       },
       "windows": {
         "version": "3.1.2"
@@ -910,6 +936,7 @@
     }
   },
   "run_list": [
-    "recipe[iis]"
+    "recipe[iis]",
+    "recipe[windows_updates]"
   ]
 }
